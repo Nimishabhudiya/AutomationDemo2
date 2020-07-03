@@ -18,7 +18,7 @@ public class Register extends Utils {
     private By ConfirmPassword=By.xpath("//input[@name='ConfirmPassword']");
    // private By Search=By.xpath("//input[@id='small-searchterms']");
    // private By SearchButton= By.xpath("//input[@class='button-1 search-box-button']");
-   // private By Click=By.xpath("//select[@id='customerCurrency']");
+  //  private By Click=By.xpath("//select[@id='customerCurrency']");
 
 
 
@@ -35,8 +35,8 @@ public class Register extends Utils {
         enterText(CompanyName,"Eurocom");
         enterText(Password,"nimisha123");
         enterText(ConfirmPassword,"nimisha123");
-        //enterText(Search,"Electronics");
-       // SelectByVisibleText(Click,"Euro");
+       // enterText(Search,"Electronics");
+        //SelectByVisibleText(Click,"Euro");
        // ClickOnElement(SearchButton);
 
 

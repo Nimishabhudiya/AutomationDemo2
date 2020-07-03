@@ -15,8 +15,10 @@ public class TestSuite extends BrowserSetup{
             homePage.ClickOnRegister();
             homePage.getTextofRegister();
             registerPage.personalDetails();
-
-
+            homePage.searchField();
+            homePage.selectCurrency();
+            homePage.giftCard();
+            homePage.Computer();
                 }
             }
 
