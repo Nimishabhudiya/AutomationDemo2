@@ -29,7 +29,7 @@ public class HomePage extends Utils{
     public void selectCurrency(){
     ClickOnElement(clickCurrency);
     ClickOnElement(selectEuroCurrency);
-   // ClickOnElement(giftCard);}
+
 }
 public void giftCard(){
     ClickOnElement(giftCard);}
